@@ -1,5 +1,6 @@
 html {
   font-family: Lora, serif;
+  color: #fff;
 }
 
 .masthead {
@@ -20,14 +21,27 @@ html {
 
 .nav a {
   text-decoration: none;
+  background-color: #467366;
+  border-radius: 8px;
+  color: #fff;
+  border: 3px solid #2d6a4d;
 }
 
 .nav a:hover {
+  background-image: url("../images/leaf-icon.svg");
+  color: #145b1d;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-size: 64px auto;
 
 }
 
 .banner {
-
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 40%, rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
 }
 
 .banner-content {
