@@ -1,5 +1,9 @@
 html {
   font-family: Lora, serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 .masthead {
@@ -31,11 +35,11 @@ html {
 
 .nav a:hover {
   background-image: url("../images/leaf-icon.svg");
-  background-repeat: no-repeat;
   background-color: #fff;
   background-position: center center;
   background-size: 64px auto;
   color: #145b1d;
+  background-repeat: no-repeat;
 }
 
 .banner {
@@ -46,12 +50,12 @@ html {
 }
 
 .banner-content {
+  background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
   background-size: 95px auto;
   background-position: 15px 180px;
   padding-top: 300px;
   color: #fff;
-  background-image: url("../images/two-leaves.svg");
 }
 
 @media only screen and (min-width: 60em) {
